@@ -16,7 +16,7 @@ Subo a github con git push.
 
 4. Creo la rama development y la establezco como activa (git checkout -b development).
 
-<image src="./images/crear-y-cambiar-rama.png" alt="captura crear y cambiar rama" title="captura crear y cambiar a rama">
+<image src="./images/crear-y-cambiar-rama.PNG" alt="captura crear y cambiar rama" title="captura crear y cambiar a rama">
 
 Realizo cambios en el archivo index.html y commit.
 
@@ -24,12 +24,12 @@ Realizo cambios en el archivo index.html y commit.
 
 Publico la rama en github con git push origin development.
 
-<image src="./images/subiendo-cambios-a-github.png" alt="Subiendo cambios a github" title="Subiendo cambios a github"/>
+<image src="./images/subiendo-cambios-a-github.PNG" alt="Subiendo cambios a github" title="Subiendo cambios a github"/>
 
 5. Vuelvo a la rama master y realizo merge (git merge development)
 
-<image src="./images/merge.png" alt="Merge development" title="Merge development"/>
+<image src="./images/merge.PNG" alt="Merge development" title="Merge development"/>
 
 Push final
 
-<image src="./images/push-final.png" alt="Push final" title="Push final"/>
+<image src="./images/push-final.PNG" alt="Push final" title="Push final"/>
