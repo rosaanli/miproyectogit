@@ -2,7 +2,7 @@
 
 1. Abro terminal desde VSC. Navego hasta la carpeta en local donde quiero crear el repositorio y mediante el comando mkdir creo la carpeta.
 
-    Para inicializar el repo comando git init.
+Para inicializar el repo comando git init.
 
 <img src="./images/crear-carpeta.PNG" alt="como cree carpeta" title="com cree carpeta"/>
 
@@ -12,24 +12,24 @@
 
 <img src="./images/commit-push.PNG" alt="commit y push inicial" title="commit y push inicial"/>
 
-    Subo a github con git push.
+Subo a github con git push.
 
 4. Creo la rama development y la establezco como activa (git checkout -b development).
 
-<image src="./images/crear-y-cambiar-rama.png">
+<image src="./images/crear-y-cambiar-rama.png" alt="captura crear y cambiar rama" title="captura crear y cambiar a rama">
 
- Realizo cambios en el archivo index.html y commit.
+Realizo cambios en el archivo index.html y commit.
 
-<image src="./images/cambios-commit.PNG">
+<image src="./images/cambios-commit.PNG" alt="cambios en archivo index y commit" title="cambios en archivo index y commit">
 
-    Publico la rama en github con git push origin development.
+Publico la rama en github con git push origin development.
 
-<image src="./images/subiendo-cambios-a-github.png"/>
+<image src="./images/subiendo-cambios-a-github.png" alt="Subiendo cambios a github" title="Subiendo cambios a github"/>
 
 5. Vuelvo a la rama master y realizo merge (git merge development)
 
-<image src="./images/merge.png"/>
+<image src="./images/merge.png" alt="Merge development" title="Merge development"/>
 
 Push final
 
-<image src="./images/push-final.png">
+<image src="./images/push-final.png" alt="Push final" title="Push final"/>
